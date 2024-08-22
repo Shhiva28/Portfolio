@@ -1,0 +1,75 @@
+/* Existing Styles */
+
+#myworks {
+  position: relative;
+  background-color: #fdfcf3;
+  min-height: 98vh;
+  color: black;
+  padding-top: 0;
+  padding: 0 15px 15px;
+}
+
+.myworks-header {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%); /* Centers the header horizontally */
+  font-family: "Miedinger", sans-serif; /* Use your custom font here */
+  font-weight: 100;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.additional-section {
+  color: #fdfcf3;
+  position: relative; /* Ensure absolute positioning of flicker-text is relative to this section */
+  min-height: 90vh;
+  background-color: #000; /* Adjust background color as needed */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in the width/height calculations */
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+
+/* For screens smaller than 1024px (large tablets and smaller) */
+@media (max-width: 1024px) {
+  .myworks-header {
+      font-size: 35px;
+      top: 30px;
+      left: 50%;
+  }
+
+  .additional-section {
+      min-height: 80vh;
+      padding: 8px;
+  }
+}
+
+/* For screens smaller than 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .myworks-header {
+      font-size: 30px;
+      top: 25px;
+      left: 50%;
+  }
+
+  .additional-section {
+      min-height: 70vh;
+      padding: 8px;
+  }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media (max-width: 480px) {
+  .myworks-header {
+      font-size: 25px;
+      top: 20px;
+      left: 50%;
+  }
+
+  .additional-section {
+      min-height: 60vh;
+      padding: 5px;
+  }
+}

@@ -1,0 +1,143 @@
+/* Existing Styles */
+
+#about {
+  background-color: #fdfcf3;
+  min-height: 95vh;
+  color: black;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.about-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Ensures absolute positioning of the header is relative to this section */
+}
+
+.about-header {
+  position: absolute;
+  top: 3.5%;
+  left: 4%;
+  margin-left: 40px;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  text-decoration: none;
+  color: black !important;  /* Adjust color as needed */
+}
+
+.about-header h1 {
+  font-size: 7rem; /* Adjust size as needed */
+  margin: 0;
+  color: #000; /* Adjust color as needed */
+}
+
+.about-content {
+  display: flex;
+  margin-top: 110px; /* Adjust according to your needs */
+  padding-top: 80px; /* Ensure space for the large header */
+  font-family: "Radio Canada Big", sans-serif;
+  font-weight: 200;
+}
+
+.about-left, .about-right {
+  max-width: 50%;
+  margin-left: 40px;
+  padding: 20px;
+  text-align: justify;
+  font-size: 22px;
+}
+
+/* Responsive Styles */
+
+/* For screens smaller than 1024px (large tablets and smaller) */
+@media (max-width: 1024px) {
+  .about-header {
+      font-size: 50px;
+
+  }
+
+  .about-header h1 {
+      font-size: 5rem;
+  }
+
+  .about-content {
+      flex-direction: column;
+      margin-top: 80px;
+      padding-top: 60px;
+  }
+
+  .about-left, .about-right {
+      max-width: 100%;
+      margin-left: 0;
+      font-size: 20px;
+      padding: 10px;
+  }
+}
+
+/* For screens smaller than 768px (tablets and smaller) */
+@media (max-width: 768px) {
+
+  #about {
+    background-color: #fdfcf3;
+    min-height: 95vh;
+    min-width: 100vw;
+    color: black;
+    position: relative;
+    padding-bottom: 0px;
+  }
+
+  
+  .about-header {
+      font-size: 40px;
+  }
+
+  .about-header h1 {
+      font-size: 4rem;
+  }
+
+  .about-content {
+      margin-top: 60px;
+      padding-top: 40px;
+  }
+
+  .about-left, .about-right {
+      font-size: 18px;
+      padding: 5px;
+  }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media (max-width: 480px) {
+
+  #about {
+    background-color: #fdfcf3;
+    min-height: 95vh;
+    min-width: 100vw;
+    color: black;
+    position: relative;
+    padding-bottom: 0px;
+  }
+
+
+  .about-header {
+      font-size: 30px;
+      top: 3.5%;
+      left: 2%;
+  }
+
+  .about-header h1 {
+      font-size: 3rem;
+  }
+
+  .about-content {
+      margin-top: 50px;
+      padding-top: 30px;
+  }
+
+  .about-left, .about-right {
+      font-size: 16px;
+      padding: 5px;
+  }
+}

@@ -1,0 +1,123 @@
+/* Existing Styles */
+
+#home {
+  position: relative;
+  min-height: 95vh;
+}
+
+.logo {
+  position: absolute;
+  top: 8%;
+  left: 4%;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 625;
+  font-size: 45px;
+  letter-spacing: -8px;
+  text-decoration: none;
+  color: #fff; /* Adjust color as needed */
+}
+
+.text-Div {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  height: 24px; /* Adjust the height if needed */
+  text-align: left;
+}
+
+.line1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.line2 {
+  font-family: "Prompt", sans-serif;
+  font-size: 100px;
+  color: #fdfcf3;
+}
+
+.line3 {
+  font-size: 55px;
+  font-weight: 200;
+  color: #bcfd29;
+}
+
+/* Responsive Styles */
+
+/* For screens smaller than 1024px (large tablets and smaller) */
+@media (max-width: 1024px) {
+  .logo {
+      font-size: 45px;
+      
+  }
+
+  .text-Div {
+      left: 10%;
+  }
+
+  .line1 {
+      font-size: 35px;
+  }
+
+  .line2 {
+      font-size: 80px;
+  }
+
+  .line3 {
+      font-size: 45px;
+  }
+}
+
+/* For screens smaller than 768px (tablets and smaller) */
+@media (max-width: 768px) {
+
+  
+  .logo {
+      font-size: 40px;
+  }
+
+  .text-Div {
+      left: 8%;
+  }
+
+  .line1 {
+      font-size: 30px;
+  }
+
+  .line2 {
+      font-size: 60px;
+  }
+
+  .line3 {
+      font-size: 35px;
+  }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media (max-width: 480px) {
+  .logo {
+      top: 5%;
+      left: 5%;
+      font-size: 40px;
+  }
+
+  .text-Div {
+      top: 40%;
+      left: 5%;
+  }
+
+  .line1 {
+      font-size: 25px;
+  }
+
+  .line2 {
+      font-size: 45px;
+  }
+
+  .line3 {
+      font-size: 28px;
+  }
+}

@@ -1,0 +1,22 @@
+section {
+    
+    text-align: center;
+    min-height: 95vh;
+    background-color: #000;
+    scroll-behavior: smooth ;
+    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
+  }
+  
+  /* #home {
+    background-color: #f0f8ff;
+  }
+  
+  #about {
+    background-color: #faebd7;
+  }
+  
+  #contact {
+    background-color: #ffe4e1;
+  } */
+  

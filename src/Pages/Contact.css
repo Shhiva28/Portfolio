@@ -1,0 +1,125 @@
+/* Existing Styles */
+
+#contact {
+  background-color: black;
+  min-height: 60vh;
+  color: #fdfcf3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 80px;
+}
+
+.contact-header {
+  color: #fdfcf3;
+  font-family: 'Balbek', sans-serif;
+  font-size: 100px;
+  line-height: 1.2;
+  margin-right: 50px; /* Space between the header and info */
+}
+
+.contact-header span {
+  display: block;
+}
+
+.contact-info {
+  color: #fdfcf3;
+  margin: 40px;
+  margin-top: 1px;
+  font-size: 30px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info p svg {
+  margin-right: 10px; /* Space between the icon and text */
+}
+
+.socials {
+  display: flex; /* Align social icons next to each other */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.socials a {
+  color: #fdfcf3;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px; /* Space between social icons */
+  font-size: 30px; /* Adjust size of the social icons */
+}
+
+.socials a:hover {
+  color: #a1a1a1; /* Change color on hover */
+}
+
+/* Responsive Styles */
+
+/* For screens smaller than 1024px (large tablets and smaller) */
+@media (max-width: 1024px) {
+  #contact {
+      flex-direction: column; /* Stack content vertically */
+      padding-left: 40px;
+      padding-right: 40px;
+      text-align: center; /* Center the text */
+      justify-content: center; /* Center content vertically */
+  }
+
+  .contact-header {
+      font-size: 80px; /* Adjust header size */
+      margin-right: 0; /* Remove margin to center the header */
+      margin-bottom: 30px; /* Add space below header */
+  }
+
+  .contact-info {
+      margin: 20px;
+      font-size: 25px; /* Slightly smaller text for better fit */
+  }
+
+  .socials {
+      margin-top: 30px; /* Increase spacing above social icons */
+      justify-content: center; /* Center social icons */
+  }
+}
+
+/* For screens smaller than 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .contact-header {
+      font-size: 60px; /* Further reduce header size */
+  }
+
+  .contact-info {
+      font-size: 20px; /* Smaller text size */
+  }
+
+  .socials a {
+      font-size: 25px; /* Reduce social icon size */
+      margin-right: 10px;
+      margin-left: 10px;
+  }
+}
+
+/* For screens smaller than 480px (mobile devices) */
+@media (max-width: 480px) {
+  #contact {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  .contact-header {
+      font-size: 50px; /* Smaller header for mobile screens */
+  }
+
+  .contact-info {
+      font-size: 18px; /* Even smaller text for mobile */
+  }
+
+  .socials a {
+      font-size: 20px; /* Smaller social icons */
+  }
+}
