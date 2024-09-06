@@ -18,10 +18,12 @@ const Contact = () => {
         </p>
         <span></span>
         <p>
-          <FontAwesomeIcon icon={faPhone} /> <span style={{ marginLeft: '10px' }}>+91 76542 88902</span>
+          <FontAwesomeIcon icon={faPhone} /> <span style={{ marginLeft: '10px' }}>+91 98459</span>
         </p>
         <p>
-          <FontAwesomeIcon icon={faInstagram} /> <span style={{ marginLeft: '10px' }}>shh._.28</span>
+          <FontAwesomeIcon icon={faInstagram} /> <span style={{ marginLeft: '10px' }}><a href="https://www.instagram.com/shh._.28?igsh=amM2NGRtazk0NmU=" >
+            shh._.28
+          </a></span>
         </p>
         <div className="socials">
           {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">

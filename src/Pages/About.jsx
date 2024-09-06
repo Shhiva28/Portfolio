@@ -1,12 +1,13 @@
 import React from 'react';
 import './section.css';
 import './About.css';
+import aboutImage from '../assets/images/image3.jpg'; // Update the path if needed
 
 const About = () => {
   return (
     <section id="about" className="about-section">
       <div className="about-header">
-        <h1>About </h1>
+        <h1>About</h1>
       </div>
       <div className="about-content">
         <div className="about-left">
@@ -17,11 +18,11 @@ const About = () => {
           </p>
         </div>
         <div className="about-right">
-          <h2>Experience</h2>
-          <p>Details about your experience will go here.</p>
+          <div className="image-containerA">
+            <img src={aboutImage} alt="About" className="about-image" />
+          </div>
         </div>
       </div>
-
     </section>
   );
 };
